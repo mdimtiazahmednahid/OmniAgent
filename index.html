@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omnigent | AI Omni-Channel & Live Tracking Platform</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- SaaS Landing Page View -->
+  <div id="landing-view" class="landing-container">
+    <!-- Navbar -->
+    <header class="landing-header">
+      <div class="landing-logo-container">
+        <div class="sidebar-logo">O</div>
+        <span class="landing-brand-name">Omnigent</span>
+      </div>
+      <nav class="landing-nav">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Reviews</a>
+      </nav>
+      <div class="landing-header-actions">
+        <button id="btn-landing-login" class="btn">Log In</button>
+        <button id="btn-landing-register" class="btn btn-primary">Start Trial</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="landing-hero">
+      <div class="glowing-blob blob-1"></div>
+      <div class="glowing-blob blob-2"></div>
+      
+      <div class="hero-content">
+        <span class="hero-badge">⚡ NEXT-GEN CUSTOMER COPILOT</span>
+        <h1 class="hero-title">Automate Customer Conversations <br><span class="gradient-text">With AI Omni-Channel Agents</span></h1>
+        <p class="hero-subtitle">
+          One unified platform to track web visitors live, automate instant AI support across WhatsApp, Instagram & Messenger, and streamline e-commerce logistics.
+        </p>
+        <div class="hero-actions">
+          <button id="btn-hero-cta" class="btn btn-primary btn-lg">Start Your Free Trial</button>
+          <button id="btn-hero-demo" class="btn btn-lg">Explore Sandbox</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="landing-features">
+      <h2 class="section-title">Built to help your business scale</h2>
+      <p class="section-subtitle">Stunning features out-of-the-box, no complex server config needed.</p>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>Omni-channel Inbox</h3>
+          <p>Bring Instagram Direct, Facebook Messenger, WhatsApp, and Web SDKs into a single responsive hub.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI Prompt Configurator</h3>
+          <p>Give your AI agent a unique persona, system constraints, instructions and temperature for automatic replies.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚙️</div>
+          <h3>Workflow Automation</h3>
+          <p>Build custom checkout outreach, welcome promos, and timing conditions on a visual canvas.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🗺️</div>
+          <h3>Real-time Radar Map</h3>
+          <p>Inspect active visitor paths, cities, and browsers live, with immediate support takeover controls.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="landing-pricing">
+      <h2 class="section-title">Transparent, flexible plans</h2>
+      <p class="section-subtitle">Select the tier that matches your business scale.</p>
+      
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="plan-name">Starter</div>
+          <div class="plan-price">$19<span class="plan-period">/mo</span></div>
+          <p class="plan-desc">For small stores getting started with automated chat.</p>
+          <ul class="plan-features">
+            <li>1 Unified Inbox Integration</li>
+            <li>Basic AI Agent Copilot</li>
+            <li>200 Automated Replies /mo</li>
+            <li>Real-time Visitor Tracking</li>
+          </ul>
+          <button class="btn btn-pricing-select" data-plan="Starter">Select Starter</button>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="plan-name">Growth (Recommended)</div>
+          <div class="plan-price">$49<span class="plan-period">/mo</span></div>
+          <p class="plan-desc">Perfect for growing brands looking for complete automation.</p>
+          <ul class="plan-features">
+            <li>Unlimited Integration Channels</li>
+            <li>Advanced AI Prompt Customization</li>
+            <li>Unlimited AI Auto-replies</li>
+            <li>Visual Automation Flow Builder</li>
+            <li>E-Commerce Orders Integration</li>
+          </ul>
+          <button class="btn btn-primary btn-pricing-select" data-plan="Growth">Select Growth</button>
+        </div>
+
+        <div class="pricing-card">
+          <div class="plan-name">Enterprise</div>
+          <div class="plan-price">Custom</div>
+          <p class="plan-desc">For large scaling businesses requiring custom LLM hosting.</p>
+          <ul class="plan-features">
+            <li>Custom fine-tuned Llama model</li>
+            <li>Dedicated SLA Support</li>
+            <li>99.9% Live Radar Map uptime</li>
+            <li>On-prem/Private cloud deployment</li>
+          </ul>
+          <button class="btn btn-pricing-select" data-plan="Enterprise">Contact Sales</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="landing-testimonials">
+      <h2 class="section-title">What businesses are saying</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Omnigent converted 30% more checkout visitors for our store in the first month using the Cart Abandonment visual rule!"</p>
+          <div class="testimonial-user">— Sarah J., TechStore Owner</div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"The real-time visitor radar allows us to assist key customers right when they are hovering over pricing. Absolute game changer."</p>
+          <div class="testimonial-user">— Marcus K., Support Director</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="landing-footer">
+      <p>&copy; 2026 Omnigent. Built for modern businesses.</p>
+    </footer>
+  </div>
+
+  <!-- Authentication Form View -->
+  <div id="auth-view" class="auth-container" style="display: none;">
+    <div class="auth-card glass-card">
+      <div class="auth-tabs">
+        <button id="tab-login" class="auth-tab active">Sign In</button>
+        <button id="tab-register" class="auth-tab">Register Business</button>
+      </div>
+
+      <!-- Login Form -->
+      <form id="form-login" class="auth-form">
+        <h3 class="auth-title">Welcome Back</h3>
+        <p class="auth-subtitle">Log in to manage your business inbox and AI configurations</p>
+        
+        <div class="input-group">
+          <label class="input-label">Business Email</label>
+          <input type="email" id="login-email" class="input-field" placeholder="owner@company.com" required>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label">Password</label>
+          <input type="password" id="login-password" class="input-field" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Access Dashboard</button>
+        <p class="auth-toggle-tip">Don't have an account? <a href="#" id="link-to-register">Register your business</a></p>
+      </form>
+
+      <!-- Register Form -->
+      <form id="form-register" class="auth-form" style="display: none;">
+        <h3 class="auth-title">Register Business</h3>
+        <p class="auth-subtitle">Launch your custom AI omni-channel hub in seconds</p>
+
+        <div class="input-group">
+          <label class="input-label">Business Name</label>
+          <input type="text" id="register-biz-name" class="input-field" placeholder="CafeGlow, TechStore, etc." required>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label">Owner Name</label>
+          <input type="text" id="register-owner-name" class="input-field" placeholder="Alice Smith" required>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 12px;">
+          <div class="input-group">
+            <label class="input-label">Industry</label>
+            <select id="register-industry" class="select-field">
+              <option value="ecommerce">E-Commerce & Retail</option>
+              <option value="saas">Software / SaaS</option>
+              <option value="services">Professional Services</option>
+              <option value="hospitality">Hospitality & Food</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label class="input-label">Brand Color</label>
+            <select id="register-color" class="select-field">
+              <option value="#6366f1">Indigo (Default)</option>
+              <option value="#10b981">Emerald Green</option>
+              <option value="#a855f7">Amethyst Purple</option>
+              <option value="#f43f5e">Rose Red</option>
+              <option value="#06b6d4">Cyan Sky</option>
+              <option value="#f59e0b">Amber Gold</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label">Business Email</label>
+          <input type="email" id="register-email" class="input-field" placeholder="alice@company.com" required>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label">Password</label>
+          <input type="password" id="register-password" class="input-field" placeholder="Create password" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Create Business Hub</button>
+        <p class="auth-toggle-tip">Already registered? <a href="#" id="link-to-login">Sign in</a></p>
+      </form>
+      
+      <div class="auth-card-footer">
+        <button id="btn-auth-back" class="btn btn-sm btn-text">← Back to Homepage</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Shell (Dashboard) -->
+  <div id="app" style="display: none;">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">O</div>
+        <span class="sidebar-title">Omnigent</span>
+      </div>
+      
+      <nav class="sidebar-nav">
+        <a class="nav-item active" data-view="dashboard">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <rect x="3" y="3" width="7" height="9" rx="1"></rect>
+            <rect x="14" y="3" width="7" height="5" rx="1"></rect>
+            <rect x="14" y="12" width="7" height="9" rx="1"></rect>
+            <rect x="3" y="16" width="7" height="5" rx="1"></rect>
+          </svg>
+          Dashboard
+        </a>
+        
+        <a class="nav-item" data-view="analytics">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <line x1="18" y1="20" x2="18" y2="10"></line>
+            <line x1="12" y1="20" x2="12" y2="4"></line>
+            <line x1="6" y1="20" x2="6" y2="14"></line>
+          </svg>
+          Analytics
+        </a>
+        
+        <a class="nav-item" data-view="inbox">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          Unified Inbox
+          <span class="nav-badge" id="unread-chats-badge" style="display: none;">3</span>
+        </a>
+        
+        <a class="nav-item" data-view="live-map">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M12 2a10 10 0 0 0-10 10c0 5.25 10 12 10 12s10-6.75 10-12a10 10 0 0 0-10-10z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          Live Tracking
+          <span class="nav-badge live" id="live-visitors-badge">0</span>
+        </a>
+        
+        <a class="nav-item" data-view="orders">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          Order Manager
+        </a>
+        
+        <a class="nav-item" data-view="automation">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+          Automations
+        </a>
+        
+        <a class="nav-item" data-view="ai-agent">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+          </svg>
+          AI Agent Config
+        </a>
+        
+        <a class="nav-item" data-view="widget-sdk">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          Web SDK Widget
+        </a>
+      </nav>
+      
+      <div class="sidebar-footer" style="justify-content: space-between;">
+        <div class="agent-profile" style="width: auto;">
+          <div class="agent-avatar" id="sidebar-agent-avatar">
+            JD
+            <div class="agent-status-dot"></div>
+          </div>
+          <div class="agent-info">
+            <span class="agent-name" id="sidebar-agent-name">John Doe</span>
+            <span class="agent-role" id="sidebar-business-name">System Administrator</span>
+          </div>
+        </div>
+        <button id="btn-logout" class="btn-icon" style="background:none; border:none; color:var(--text-muted); cursor:pointer;" title="Logout">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" style="width: 18px; height: 18px;">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+            <polyline points="16 17 21 12 16 7"></polyline>
+            <line x1="21" y1="12" x2="9" y2="12"></line>
+          </svg>
+        </button>
+      </div>
+    </aside>
+    
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Topbar Header -->
+      <header class="topbar">
+        <div class="topbar-title-section">
+          <h1 id="view-title">Dashboard</h1>
+        </div>
+        
+        <div class="topbar-actions">
+          <div class="stat-pill">
+            <span class="pulse-dot"></span>
+            <span>AI Copilot: <strong id="topbar-copilot-status">Active</strong></span>
+          </div>
+          
+          <div class="stat-pill">
+            <span class="pulse-dot warning"></span>
+            <span>Simulated Visitors: <strong id="topbar-visitors-count">0</strong></span>
+          </div>
+        </div>
+      </header>
+      
+      <!-- Dynamic View Container -->
+      <div class="view-container" id="view-content">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+      
+      <!-- Real-time Toast container for live user popups -->
+      <div id="toast-container"></div>
+    </main>
+  </div>
+
+  <!-- Main Application Script (ES Module) -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
